@@ -24,7 +24,7 @@ module.exports = () => {
       }),
       //service worker
       new InjectManifest({
-        swSrc: './src-sw.js',
+        swSrc: './src-sw.js',2
         swDest: 'src-sw.js',
       }),
       // manifest.json
@@ -52,7 +52,7 @@ module.exports = () => {
       rules: [
         {
           test: /\.css$/i,
-          use: [MiniCssExtractPlugin.loader, 'css-loader'],
+          use: ["style-loader", "css-loader"],
         },
         {
           test: /\.m?js$/,
