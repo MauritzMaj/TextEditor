@@ -56,6 +56,9 @@ https://github.com/MauritzMaj/TextEditor
 
 link to deployed application: 
 
+https://guarded-earth-59203.herokuapp.com/
+
+
 screenshot of application:
 
 

@@ -4,9 +4,7 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-        "dev": "webpack-dev-server",
-        "build": "webpack --mode production",
-        "start": "webpack --watch"
+        "server": "nodemon server.js --ignore client"
     },
     "keywords": [],
     "author": "",
